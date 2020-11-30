@@ -18,3 +18,39 @@ body{
     align-items: center;
 }
 
+.bottom{
+    background-color: wheat;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    min-width: 600px;
+}
+.section2{
+    margin: 80px auto;
+    max-height: 45px;
+}
+img{
+    border: 7px solid#272838;
+    border-radius: 3px;
+    margin: 0 auto;
+}
+
+a{
+    background-color: lightblue;
+    border: 1px solid #272838;
+    border-radius: 2px;
+    color: #272838;
+    padding: 10px;
+}
+
+a:hover{
+    filter: brightness(80%);
+    
+}
